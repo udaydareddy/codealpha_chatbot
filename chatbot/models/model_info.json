@@ -1,0 +1,21 @@
+{
+  "model_info": {
+    "training_date": "2025-07-20 14:50:03",
+    "faq_count": 10,
+    "vocabulary_size": 40,
+    "vector_shape": "(10, 40)",
+    "similarity_threshold": 0.1,
+    "confidence_thresholds": {
+      "high": 0.5,
+      "medium": 0.1,
+      "low": "below 0.1"
+    }
+  },
+  "files_to_download": [
+    "faq_chatbot_model.pkl (MAIN FILE - contains everything)",
+    "tfidf_vectorizer.pkl (alternative)",
+    "faq_vectors.pkl (alternative)",
+    "faq_data.csv (backup data)"
+  ],
+  "integration_notes": "Use faq_chatbot_model.pkl for Flask integration"
+}
